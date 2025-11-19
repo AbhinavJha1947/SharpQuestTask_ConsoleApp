@@ -34,8 +34,12 @@ Modify the connection string in **Program.cs**:
 
 ```csharp
     static string ConnectionString = "Server=ABHINAV\\SQLEXPRESS01;Database=EmployeesDB;Trusted_Connection=True;TrustServerCertificate=True;";
+
+---
 ### 3. Build the Project
 dotnet build
+
+---
 ### 4. Run Commands
 List all employees with current salary
 dotnet run -- -list
